@@ -1,5 +1,5 @@
 var eleAOS = document.getElementsByClassName("appear-on-scroll");
-var repeat = false;
+var repeat = true;
 var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 var elementOffset = vh / 6;
 const getOffsetTop = function(element) {
